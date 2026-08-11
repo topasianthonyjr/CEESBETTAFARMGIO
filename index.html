@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEES BETTA FARM | Competition Grade Betta Fish</title>
+<meta name="description" content="CEES BETTA FARM by Mochamad Giovanni — quality competition-grade betta fish and affordable wholesale pet-quality bettas from Indonesia.">
+<style>
+:root{
+  --bg:#070707; --panel:#111111; --gold:#d9ad52; --gold2:#f0cf7a;
+  --text:#f6f3ed; --muted:#aaa49a; --line:#292929;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{
+  position:fixed;top:0;width:100%;z-index:10;
+  background:rgba(7,7,7,.88);backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.08)
+}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1.5px}.logo span{color:var(--gold)}
+nav{display:flex;gap:25px;color:#ddd;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{
+  min-height:92vh;padding:145px 0 75px;display:grid;place-items:center;
+  background:
+    radial-gradient(circle at 75% 35%,rgba(217,173,82,.17),transparent 32%),
+    radial-gradient(circle at 20% 70%,rgba(120,60,180,.10),transparent 28%);
+}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}
+.kicker{color:var(--gold);font-size:13px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+h1{font-size:clamp(44px,7vw,82px);line-height:.95;letter-spacing:-3px;margin-bottom:22px}
+h1 span{color:var(--gold)}
+.hero p{font-size:18px;color:#c6c2bb;max-width:650px}
+.buttons{display:flex;gap:13px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:13px 21px;border-radius:8px;font-weight:700;border:1px solid var(--gold);transition:.2s}
+.btn.primary{background:var(--gold);color:#080808}.btn:hover{transform:translateY(-2px)}
+.btn.secondary{color:var(--gold)}
+.fish-card{
+  min-height:430px;border:1px solid var(--line);border-radius:24px;
+  background:linear-gradient(145deg,#171717,#0b0b0b);
+  display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;
+}
+.fish-card:before{
+  content:"BETTA";position:absolute;font-size:110px;font-weight:900;color:rgba(255,255,255,.025);
+  transform:rotate(-18deg)
+}
+.fish-symbol{font-size:170px;filter:drop-shadow(0 0 28px rgba(217,173,82,.35))}
+section{padding:85px 0}
+.section-title{text-align:center;margin-bottom:45px}
+.section-title h2{font-size:38px;margin-bottom:8px}.section-title p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px}
+.card .icon{font-size:32px;margin-bottom:15px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.product{background:#0e0e0e;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.product-img{height:220px;display:grid;place-items:center;background:linear-gradient(135deg,#181818,#080808);font-size:75px}
+.product-body{padding:20px}.tag{font-size:11px;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase}.product h3{margin:5px 0}.price{font-weight:800;font-size:20px;color:var(--gold2)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about-box{border-left:3px solid var(--gold);padding-left:25px}
+.about p{color:#c1bdb5;margin:12px 0}
+.contact{background:linear-gradient(180deg,#0b0b0b,#111);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.contact-item{padding:18px 0;border-bottom:1px solid var(--line)}
+.contact-item small{color:var(--muted);display:block}.contact-item strong{font-size:18px}
+footer{padding:28px 0;text-align:center;color:#777;font-size:13px}
+@media(max-width:800px){
+  nav{display:none}.hero-grid,.about,.contact-grid{grid-template-columns:1fr}
+  .cards,.products{grid-template-columns:1fr}
+  .hero{padding-top:120px}.fish-card{min-height:300px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#home">CEES <span>BETTA FARM</span></a>
+    <nav>
+      <a href="#home">Home</a><a href="#fish">Our Fish</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="kicker">Indonesia • Betta Breeder & Farm</div>
+      <h1>CEES<br><span>BETTA FARM</span></h1>
+      <p>Quality competition-grade betta fish for serious hobbyists, breeders and show enthusiasts — plus affordable wholesale pet-quality fish for everyday keepers.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://wa.me/6281313459100" target="_blank">WhatsApp Us</a>
+        <a class="btn secondary" href="#fish">View Our Fish</a>
+      </div>
+    </div>
+    <div class="fish-card" aria-label="Betta fish showcase">
+      <div class="fish-symbol">🐟</div>
+    </div>
+  </div>
+</section>
+
+<section id="fish">
+  <div class="container">
+    <div class="section-title">
+      <h2>Our Betta Fish</h2>
+      <p>Selected for quality, beauty and value.</p>
+    </div>
+    <div class="products">
+      <article class="product">
+        <div class="product-img">🏆</div>
+        <div class="product-body"><span class="tag">Show Quality</span><h3>Competition Grade</h3><p>Premium bettas selected for competition and serious collections.</p></div>
+      </article>
+      <article class="product">
+        <div class="product-img">✨</div>
+        <div class="product-body"><span class="tag">Premium</span><h3>Breeder Quality</h3><p>Quality fish suitable for breeders and dedicated hobbyists.</p></div>
+      </article>
+      <article class="product">
+        <div class="product-img">🐠</div>
+        <div class="product-body"><span class="tag">Wholesale</span><h3>Pet Quality</h3><p>Affordable fish for hobbyists, pet shops and wholesale orders.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about">
+    <div>
+      <div class="kicker">About the Farm</div>
+      <h2>Quality Bettas from Indonesia</h2>
+      <p>CEES BETTA FARM is led by <strong>Mochamad Giovanni</strong> in Indonesia, offering betta fish for both competition-focused enthusiasts and hobbyists looking for affordable, healthy-looking fish.</p>
+      <p>Whether you're searching for a standout competition fish or a larger wholesale order of pet-quality bettas, the farm is focused on providing quality options at the right price.</p>
+    </div>
+    <div class="about-box">
+      <h3>What We Offer</h3>
+      <p>✓ Competition-grade betta fish</p>
+      <p>✓ Breeder-quality selections</p>
+      <p>✓ Affordable pet-quality wholesale</p>
+      <p>✓ Direct communication with the farm</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Order & Inquiries</h2>
+      <p>Message Mochamad Giovanni for available fish, prices and wholesale orders.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-item"><small>Facebook</small><strong><a href="https://www.facebook.com/search/top?q=Mochamad%20Giovanni" target="_blank">Mochamad Giovanni ↗</a></strong></div>
+        <div class="contact-item"><small>Instagram</small><strong><a href="https://www.instagram.com/m.giovanni.p/" target="_blank">@M.Giovanni.P ↗</a></strong></div>
+        <div class="contact-item"><small>WhatsApp</small><strong><a href="https://wa.me/6281313459100" target="_blank">+62 813-1345-9100 ↗</a></strong></div>
+      </div>
+      <div class="card">
+        <h3>Looking for a specific betta?</h3>
+        <p>Send a message with the strain/type, quantity and whether you're looking for competition grade or wholesale pet quality.</p>
+        <div class="buttons"><a class="btn primary" href="https://wa.me/6281313459100?text=Hello%20CEES%20BETTA%20FARM%2C%20I%27m%20interested%20in%20your%20betta%20fish." target="_blank">Chat on WhatsApp</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">© 2026 CEES BETTA FARM by Mochamad Giovanni • Indonesia</div>
+</footer>
+</body>
+</html>
